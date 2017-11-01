@@ -1,0 +1,46 @@
+article{
+    clear: right;
+    margin: 20px 10px;
+    width: 80%;
+    height: 100%;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.29);
+    border: 2px solid $main_bg_color;
+    &:nth-child(2n){
+        float: right;
+    }
+    header {
+        padding-left: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        word-spacing: .05em;
+        background-color: $main_bg_color;
+        color: white;
+    }
+    details{
+        padding-left: 10px;
+        background-color: $main_bg_color_l1;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        p{
+            
+            padding-left: 17px;
+            padding: 5px 0px;
+            display: inline-block;
+            width: 30%;
+            &:first-child{
+                border-top: 2px solid white;
+            }
+            input {
+                display: block;
+            }
+        }
+    }
+    textarea {
+        margin: 10px;
+        margin-left: auto;
+        margin-right:auto;
+        display: block;
+        width: 95%;
+        outline: none;
+        resize: vertical;
+    }
+}

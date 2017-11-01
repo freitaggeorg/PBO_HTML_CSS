@@ -1,0 +1,31 @@
+
+nav{
+    background-color: $main_bg_color_l1;
+    >ul{
+        padding:0px;
+            li{
+            display: inline-block;
+            padding: 0px 5px;
+           /* border-right: 2px solid white;*/
+            box-sizing: border-box;
+            a{
+                color: white;
+                font: {
+                    family: Arial, Helvetica, sans-serif;
+                    weight: normal;
+                    size: 20px;
+                }
+                text: {
+                    transform: lowercase;
+                    decoration: none;
+                }
+            }
+            &:hover {
+                background-color: white;
+                a{
+                    color: $main_bg_color_l1;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower");
+header > h1 {
+  font-family: 'Indie Flower', cursive;
+  font-size: 3em;
+  text-align: center;
+  background-color: #af0e0e;
+  color: white;
+}
+
+nav {
+  background-color: #c71010;
+}
+
+nav > ul {
+  padding: 0px;
+}
+
+nav > ul li {
+  display: inline-block;
+  padding: 0px 5px;
+  /* border-right: 2px solid white;*/
+  box-sizing: border-box;
+}
+
+nav > ul li a {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  text-transform: lowercase;
+  text-decoration: none;
+}
+
+nav > ul li:hover {
+  background-color: white;
+}
+
+nav > ul li:hover a {
+  color: #c71010;
+}
+
+article {
+  clear: right;
+  margin: 20px 10px;
+  width: 80%;
+  height: 100%;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.29);
+  border: 2px solid #af0e0e;
+}
+
+article:nth-child(2n) {
+  float: right;
+}
+
+article header {
+  padding-left: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  word-spacing: .05em;
+  background-color: #af0e0e;
+  color: white;
+}
+
+article details {
+  padding-left: 10px;
+  background-color: #c71010;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+article details p {
+  padding-left: 17px;
+  padding: 5px 0px;
+  display: inline-block;
+  width: 30%;
+}
+
+article details p:first-child {
+  border-top: 2px solid white;
+}
+
+article details p input {
+  display: block;
+}
+
+article textarea {
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 95%;
+  outline: none;
+  resize: vertical;
+}
+
+footer {
+  clear: both;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+footer ul {
+  list-style-type: none;
+  list-style-position: inside;
+  line-height: 1.5em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+footer ul li:nth-child(1) {
+  background-image: url(/assets/account.png);
+  background-repeat: no-repeat;
+  padding-left: 30px;
+}
+
+footer ul li:nth-child(2) {
+  background-image: url(/assets/mail.png);
+  background-repeat: no-repeat;
+  padding-left: 30px;
+}
+
+footer ul li:nth-child(3) {
+  background-image: url(/assets/update.png);
+  background-repeat: no-repeat;
+  padding-left: 30px;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+ 
+
+ /*# sourceMappingURL= style.css.map */
